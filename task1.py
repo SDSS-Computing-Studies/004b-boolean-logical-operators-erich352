@@ -15,3 +15,14 @@ Outputs:
 That is within normal Earth orbit.
 That is not within normal Earth orbit.
 """
+
+x = 1
+
+y = 0.9759
+
+z = 1.016
+
+if y<x and x>y:
+    print("That is within normal Earth orbit.")
+else:
+    print("That is not within normal Earth orbit.")

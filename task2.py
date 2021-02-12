@@ -28,3 +28,22 @@ Example:
 Enter a number: 8
 8 is only a perfect cube.
 """
+import math
+
+x = input("enter a number")
+print("you entered " + (x) )
+
+# convert x into a number
+x=int(x)
+sqt = math.sqrt(x)*math.sqrt(x)
+crt = x**(1/3)*x**(1/3)*x**(1/3)
+
+
+
+if x==sqt and x==crt:
+    print("xx is both a perfect square and a perfect cube.")
+elif x==sqt:
+    print("xx is only a perfect square.")
+elif x==crt:
+    print("xx is only a perfect cube.")
+
